@@ -1,4 +1,4 @@
-# 📱 Nothing Phone (3) - Glyph Matrix Controller
+# 📱 Glyph Matrix Test
 
 Una aplicación Android Open Source desarrollada con **Kotlin**, **Jetpack Compose** y el **SDK 2.0 de Nothing** para controlar y mostrar contenido personalizado en la matriz de LEDs del **Nothing Phone (3)**.
 
@@ -25,7 +25,7 @@ Una aplicación Android Open Source desarrollada con **Kotlin**, **Jetpack Compo
 ### Compilación y Ejecución
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/glyph-test.git
+   git clone https://github.com/FranyxD/glyph-test.git
    ```
 2. Abre el proyecto en **Android Studio**.
 3. Sincroniza Gradle (`Sync Project with Gradle Files`).

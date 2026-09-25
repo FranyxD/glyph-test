@@ -22,5 +22,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "glyph-test"
+rootProject.name = "Glyph Matrix Test"
 include(":app")

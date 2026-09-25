@@ -84,13 +84,13 @@ fun MainScreen(
             // TÍTULO Y SUBTÍTULO
             // ================================================
             Text(
-                text = "Nothing Phone (3)",
+                text = "Glyph Matrix Test",
                 style = MaterialTheme.typography.headlineMedium,
                 fontWeight = FontWeight.Bold
             )
 
             Text(
-                text = "Controlador de Glyph Matrix",
+                text = "Nothing Phone (3) Controller",
                 style = MaterialTheme.typography.bodyLarge,
                 color = MaterialTheme.colorScheme.secondary
             )
