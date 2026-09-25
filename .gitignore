@@ -1,15 +1,63 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+# ============================================================
+# GITIGNORE PARA PROYECTO ANDROID STUDIO (OPEN SOURCE EN GITHUB)
+# ============================================================
+
+# ------------------------------------------------------------
+# 1. Archivos locales y secretos de configuración
+# ------------------------------------------------------------
+# Rutas locales del SDK de Android
 local.properties
+
+# Archivos de claves, contraseñas y claves de firma
+key.properties
+secrets.properties
+signing.properties
+*.jks
+*.keystore
+*.pepk
+
+# Archivos de servicios externos (Firebase, etc.)
+google-services.json
+GoogleService-Info.plist
+
+# ------------------------------------------------------------
+# 2. Archivos de compilación (Gradle y Kotlin)
+# ------------------------------------------------------------
+.gradle/
+.kotlin/
+build/
+app/build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Instaladores y binarios generados
+*.apk
+*.ap_
+*.aab
+*.dex
+
+# ------------------------------------------------------------
+# 3. Archivos de la IDE (Android Studio / IntelliJ IDEA)
+# ------------------------------------------------------------
+.idea/workspace.xml
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+.idea/deploymentTargetSelector.xml
+
+*.iml
+*.ipr
+*.iws
+
+# ------------------------------------------------------------
+# 4. Archivos del sistema operativo
+# ------------------------------------------------------------
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
